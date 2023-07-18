@@ -38,6 +38,11 @@
   background: rgb(164, 0, 0)
 }
 
+.phone-nav {
+  display: none;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -150,6 +155,12 @@ header a:before { /* added pseudo-element */
   background-color: white;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 header a:hover:before {
@@ -503,9 +514,30 @@ font-weight: 700;
   
   header {
     width: 100%;
+    height: 60px;
     margin: 0;
   }
+
+  .desktop-nav {
+    display: none;
+  }
   
+  .phone-nav {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .phone-nav img {
+    width: 40px;
+    height: 100%;
+  }
+
+  .phone-nav img.active {
+    border-bottom: .3rem solid rgb(170, 0, 0);
+  }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -633,6 +665,10 @@ font-weight: 700;
     margin-left: 12%;
     align-items: start;
     margin-bottom: 10%;
+  }
+
+  .sprachen h3 {
+    margin-left: 2%;
   }
 
   /*PROJECTS*/

@@ -315,7 +315,7 @@ header a:hover:before {
 }
 
 #schoolday {
-  background-color: rgb(133, 33, 33);
+  background-color: #852121;
 }
 
 #schoolday:hover {
@@ -327,6 +327,26 @@ font-weight: 700;
   box-shadow: 0px 1px 10px 1px black;
   border: 1px solid rgb(133, 33, 33);
 }
+
+.sprachen {
+  background-color: rgba(0, 0, 0, 0.682);
+  width: 55%;
+  margin-left: 22.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.each-lang {
+  width: 35%;
+  display: flex;
+} 
+
+.each-lang img {
+  margin: 4%;
+}
+
 
 /*PROJECTS*/
 /*PROJECTS*/
@@ -424,9 +444,8 @@ font-weight: 700;
 .formular-feld {
   font-family: bimba-normal;
   background-color: rgba(0, 0, 0, 0);
-  width: 80%;
+  width: 95%;
   height: 33px;
-  margin-left: 10%;
   margin-top: 3%;
   transition: 0.3s;
   color: white;
@@ -443,7 +462,7 @@ font-weight: 700;
 
 #message {
   height: 200px;
-  width: 80%;
+  width: 95%;
   font-family: bimba-normal;
   resize: none;
 }
@@ -659,7 +678,6 @@ font-weight: 700;
     font-size: 15px;
   }
 }
-
 
 
 

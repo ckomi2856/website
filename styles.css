@@ -628,6 +628,13 @@ font-weight: 700;
     width: 50%;
   }
 
+  .sprachen {
+    width: 80%;
+    margin-left: 12%;
+    align-items: start;
+    margin-bottom: 10%;
+  }
+
   /*PROJECTS*/
 
   .projects {
@@ -677,6 +684,8 @@ font-weight: 700;
     margin-top: 5%;
     font-size: 15px;
   }
+
+
 }
 
 
